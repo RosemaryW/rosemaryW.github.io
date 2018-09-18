@@ -1,0 +1,387 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding-bottom: 16vh;
+	min-height: 100%;
+	position: relative;
+}
+
+#front {
+	background-image: url(bg2.jpg);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size:cover;
+  	-moz-background-size:cover;
+  	-o-background-size:cover;
+	background-position: center center;
+	color: #e6e6e6;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: #ffffcc;
+}
+
+header{
+	margin: 0;
+	padding: 4vh 4vw;
+	border: 0 solid rgba(255,255,255,0);
+}
+header ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	align-items: baseline;
+}
+
+header ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3vw;
+	font-weight: 300;
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 0 2vw;
+}
+
+.branchheader{
+	background-image: url(bg2.jpg);
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 100%), url(bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 50%;
+}
+
+.RWbotton {
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-variant: small-caps;
+	font-size: 2.8vw;
+	word-spacing: -0.5vw;
+	letter-spacing: -0.1vw;
+	padding-top: -1vh;
+}
+
+.branchheader a:hover, p a:hover {
+	color: #808080;
+}
+
+#RW {
+	font-family: 'Raleway', sans-serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-align: center;
+	font-size: 9vw;
+	word-spacing: -2vw;
+	letter-spacing: -0.4vw;
+	margin-top: 9vh;
+	margin-bottom: 0;
+	color: #ffffcc;
+}
+#RW a:hover {
+	color: #ffff99;
+}
+
+#main h2{
+	font-size: 2vw;
+	color: #d9d9d9;
+	text-align: center; 
+	margin-top: 2.6vh;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 47vw;
+    padding: 0;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 16vh;
+	align-items: center;
+}
+
+
+#contact ul{
+	width: 30vw;
+	list-style-type: none;
+	font-size: 1.3vw;
+	text-align: left;
+	padding: 1vh 0 0 8vw;
+	letter-spacing: 0.15vw;
+}
+
+#professional {
+	width: 30vw;
+	text-align: center;
+	padding-right: 2vw;
+}
+#professional i {
+	font-size: 4.5vw;
+	padding: 2vh 3vw;
+
+}
+
+#education ul{
+	width: 40vw;
+	text-align: center;
+	list-style-type: none;
+	font-size: 1.3vw;
+	letter-spacing: 0.3vw;
+}
+#education li {
+	margin-bottom: 0.9vh;
+}
+
+.branchfooter {
+	background-image: url(bg2.jpg);
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%), url(bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 100%;
+}
+
+.row {
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2vw;
+	padding: 0;
+	color: #262626;
+}
+.column50{
+	flex: 50%;
+}
+.column30{
+	flex: 30%;
+}
+.column70{
+	flex: 70%;
+	margin-right: 5vw;
+
+}
+
+#Academics h3 {
+	text-align: center;
+	font-size: 2vw;
+	color: #404040;
+}
+
+.column50 table {
+	width: 40vw;
+	height: 50vh;
+	margin-left: 5vw;
+
+}
+
+.grade {
+	text-align: right;
+}
+
+#v1 {
+	border-left: 2px solid #cccccc;
+    height: 45vh;
+    position: absolute;
+    left: 50vw;
+    top: 27.5vh;
+}
+
+#Academics .column50 ul {
+	list-style-type: none;
+	margin: 0 3vw;
+}
+
+#Academics .column50 li {
+	margin: 5vh 0;
+}
+
+button {
+	position: absolute;
+	right: 4vw;
+	bottom: 18vh;
+	height: 4.3vh;
+	width: 15vw;
+	overflow: hidden;
+	font-size: inherit;
+	font-family: inherit;
+	border-radius: 50%;
+	border:none;
+	cursor: pointer;
+	background-color: #aebfcf;
+	box-shadow: 0 0.3vh 8px #888888;
+	outline: none;
+}
+
+button:hover {
+	filter: brightness(95%);
+}
+
+button:active {
+  box-shadow: 0 0.3vh 8px #666;
+  transform: translateY(0.3vh);
+  border: none;
+  outline: none;
+}
+
+.branchfooter a:hover {
+	color: #ffffcc;
+} /*doesnt work???????*/
+
+p, #activities .actdesc, #experience .expli, #proj li{
+	font-size: 1.5vw;
+	text-align: justify;
+	line-height: 150%;
+	overflow-wrap: normal;
+	text-indent: 3vw;
+}
+
+#home h3 {
+	font-size: 2.5vw;
+	color: #404040;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#home h4 {
+	font-size: 2vw;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#home h5 {
+	font-size: 1.6vw;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+#home .row ul {
+	font-family: "Courier New", Courier, monospace;
+	list-style-position: inside;
+	font-size: 1.6vw;
+	line-height: 150%;
+	padding-left: 0;
+	padding-top: 0;
+	margin-top: 2.5%;
+}
+
+.actdesc {
+	width: 65vw;
+	height: 33vh;
+	text-align: justify;
+	overflow: auto;
+	border-top: 1px solid #cccccc;
+	text-indent: 2vw;
+	margin-top: 5vh;
+}
+
+#activities img {
+	width: 25vw;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	margin-bottom: 0;
+	margin-top: 5vh;
+}
+
+#experience img {
+	width: 30vw;
+	margin-left: 2vw;
+	margin-top: 2vh;
+}
+
+#experience .expdesc {
+	margin-left: 7.5vw;
+	margin-right: 7.5vw;
+	margin-bottom: 3vh;
+	border-bottom: 1px solid #cccccc;
+}
+
+#experience h3, #experience h5 {
+	text-align: right;
+	font-size: 2.5vw;
+	margin-right: 2vw;
+	margin-top: 3.5vh;
+	margin-bottom: 0vw;
+}
+
+#experience h5 {
+	font-weight: lighter;
+	margin-top:2vh;
+	font-size:2vw;
+}
+
+.helloworld{
+	display: inline-block;
+	overflow: hidden;
+	border-right: 0.3vw solid #404040;
+	white-space: nowrap;
+	margin: 0 auto;
+	margin-top: 2vh;
+	animation: 
+		typewriter 2s steps(20) normal,
+    	blinkTextCursor 850ms steps(25) infinite normal;
+}
+.helloworld h3 {
+	display: inline;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 28%;}
+}
+@keyframes blinkTextCursor{
+  from,to {border-right-color: transparent;}
+  50% {border-right-color: #404040;}
+}
+
+#home img {
+	margin: 3vw;
+	width: 20vw;
+	border-radius: 35%;
+}
+
+#proj {
+	margin-left: 7.5vw;
+	margin-right: 7.5vw;
+}
+
+#proj h4 {
+	font-weight: bold;
+	margin-top: 2.5vh;
+	margin-bottom: 1vh;
+	font-size: 1.8vw;
+}
+
+
+
